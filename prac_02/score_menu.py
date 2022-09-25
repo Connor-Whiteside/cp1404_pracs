@@ -13,6 +13,7 @@ MENU = """(V)aild score
 
 
 def main():
+    """Score menu program."""
     score = 0
     print(MENU)
     choice = input(">>> ").lower()
@@ -31,7 +32,7 @@ def main():
 
 
 def determine_score(score):
-    """Determine a result then return a string based on score"""
+    """Determine a result then return a string based on score."""
     if score <= 0:
         return "Invalid score"
     elif score < 50:
@@ -43,6 +44,7 @@ def determine_score(score):
 
 
 def get_valid_score():
+    """Returns a valid score between 0 and 100."""
     score = int(input("Enter Score: "))
     while score < 0 or score > 100:
         print("Invalid score")
@@ -51,6 +53,7 @@ def get_valid_score():
 
 
 def display_star(score):
+    """Display asterisks based on score."""
     return "*" * score
 
 
