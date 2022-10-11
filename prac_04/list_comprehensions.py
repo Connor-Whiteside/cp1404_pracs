@@ -40,8 +40,9 @@ big_number = [number for number in numbers if number > 9]
 print(big_number)
 
 # How do i just get the last names
-test = [last_name for last_name in full_names if len(last_name) > 11]
-print(" ".join(test))
+last_names = ", ".join([name.split()[1] for name in full_names if len(name) > 11])
+
+print(last_names)
 
 
 
