@@ -1,3 +1,4 @@
+"""CP1404 Guitar class program."""
 CURRENT_YEAR = 2022
 VINTAGE_AGE = 50
 

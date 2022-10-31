@@ -1,7 +1,9 @@
+"""CP1404 Languages program."""
 from prac_06.programming_language import ProgrammingLanguage
 
 
 def main():
+    """Runs languages program."""
     print("Hello welcome to Programming Language Program.")
 
     python = ProgrammingLanguage("Python", "Dynamic", True, 1991)

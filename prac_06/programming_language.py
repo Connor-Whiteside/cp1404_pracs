@@ -1,3 +1,4 @@
+"""CP1404 Programming Languages program."""
 class ProgrammingLanguage:
     """Represents a Programming Language object."""
 

@@ -1,7 +1,9 @@
+"""CP1404 Guitars_test program."""
 from prac_06.guitar import Guitar
 
 
 def main():
+    """Runs tests for Guitar class."""
     guitar = Guitar("Gibson L-5 CES", 1922, 16035.40)
     my_guitar = Guitar("Guitar", 2013, 10)
     # print(guitar)
